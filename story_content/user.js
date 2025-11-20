@@ -2,13 +2,13 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6VADUD4SUYg":
+      case "5bu2x7q3DLu":
         Script1();
         break;
-      case "6knle9bfZXc":
+      case "6kkm9A2YdwI":
         Script2();
         break;
-      case "6WS7ByIBgx9":
+      case "5jLRQU3460y":
         Script3();
         break;
   }
@@ -63,11 +63,11 @@ var nama = player.GetVar("Nama");
 var skor = player.GetVar("skorakhir");
 
 var data = {
-  "nama": nama,
+  "Nama": Nama,
   "skor": skor
 };
 
-fetch("https://script.google.com/macros/s/AKfycbz_URxtY3EQTZwfFrLjSUwhW7h8tWXE-WiDMY7PX9-pn55YUw_Y_oXcZG4kK1KOWK8ZQw/exec", {
+fetch("https://script.google.com/macros/s/AKfycbxpdVYLkAscejJRnt3JJib9X3hcKeeM1Haj3fVtBXOvY9IVlt8_Nbpwztz4ZitT9Jwt1Q/exec", {
   method: "POST",
   mode: "no-cors",
   headers: {
